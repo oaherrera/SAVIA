@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="85844" started-at="2019-09-28T22:25:12 COT" finished-at="2019-09-28T22:26:38 COT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="85844" started-at="2019-09-28T22:25:12 COT" finished-at="2019-09-28T22:26:38 COT">
+      <class name="test.TestPortafolioEvento">
+        <test-method status="PASS" signature="setup()[pri:0, instance:test.TestPortafolioEvento@52525845]" name="setup" is-config="true" duration-ms="20671" started-at="2019-09-28T22:24:52 COT" finished-at="2019-09-28T22:25:12 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ingresoDatosPrestador()[pri:2, instance:test.TestPortafolioEvento@52525845]" name="ingresoDatosPrestador" duration-ms="83100" started-at="2019-09-28T22:25:12 COT" finished-at="2019-09-28T22:26:36 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ingresoDatosPrestador -->
+        <test-method status="PASS" signature="finalizeTest(org.testng.ITestResult)[pri:0, instance:test.TestPortafolioEvento@52525845]" name="finalizeTest" is-config="true" duration-ms="2712" started-at="2019-09-28T22:26:36 COT" finished-at="2019-09-28T22:26:38 COT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ingresoDatosPrestador status=SUCCESS method=TestPortafolioEvento.ingresoDatosPrestador()[pri:2, instance:test.TestPortafolioEvento@52525845] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finalizeTest -->
+      </class> <!-- test.TestPortafolioEvento -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
