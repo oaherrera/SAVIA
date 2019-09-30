@@ -48,6 +48,55 @@ public class PortafolioEvento {
 	By btnAgregarPaqPortafolio = By.xpath("(//button[normalize-space(.)='Agregar al portafolio'])[2]");
 	By btnCerrarServiciosSede = By.xpath("(//strong[contains(text(),'Servicios Sede')]//ancestor::div)[4]//button[@class='close']");
 	By btnCrearNuevaSede = By.xpath("//button[contains(@id,'btnCrearNuevaSede')]");
+	By txtNombreSede = By.xpath("//input[@id='nombreSede']");
+	By lstSedePrincipal = By.xpath("//select[@id='sedePrincipal']");
+	By txtCodigoSede = By.xpath("//input[@id='codigo' and @placeholder ='Código Habilitación']");
+	By lstDepartamento = By.xpath("//select[@id='departamento']");
+	By lstMunicipio = By.xpath("//select[@id='municipio']");
+	By lstZona = By.xpath("//select[@id='zona']");
+	By txtBarrio = By.xpath("//input[@id='barrio']");
+	By txtDireccion = By.xpath("//input[@id='direccion']");
+	By txtFax = By.xpath("//input[@id='fax']");
+	By txtTelCitasMedicas = By.xpath("//input[@id='telcitas']");
+	By txtCorreoElectronico = By.xpath("//input[@id='correo']");
+	By txtTelefonoAdmin = By.xpath("//input[@id='teladmin']");
+	By lstDiaLunes= By.xpath("//select[@id='lunesInicial']");
+	By lstDiaLunesFinal= By.xpath("//select[@id='lunesFinal']");
+	By lstDiaMartes= By.xpath("//select[@id='martesInicial']");
+	By lstDiaMartesFinal= By.xpath("//select[@id='martesFinal']");
+	By lstDiaMiercoles= By.xpath("//select[@id='miercolesInicial']");
+	By lstDiaMiercolesFinal= By.xpath("//select[@id='miercolesFinal']");
+	By lstDiaJueves= By.xpath("//select[@id='juevesInicial']");
+	By lstDiaJuevesFinal= By.xpath("//select[@id='juevesFinal']");
+	By lstDiaViernes= By.xpath("//select[@id='viernesInicial']");
+	By lstDiaViernesFinal= By.xpath("//select[@id='viernesFinal']");
+	By lstDiaSabado= By.xpath("//select[@id='sabadoInicial']");
+	By lstDiaSabadoFinal= By.xpath("//select[@id='sabadoFinal']");
+	By lstDiaDomingo= By.xpath("//select[@id='domingoInicial']");
+	By lstDiaDomingoFinal= By.xpath("//select[@id='domingoFinal']");
+	By lstDiaFestivo= By.xpath("//select[@id='festivoInicial']");
+	By lstDiaFestivoFinal= By.xpath("//select[@id='festivoFinal']");
+	By btnGuardarSede= By.xpath("//button[@id='guardarSede']");
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
 	public PortafolioEvento(ObjetosConfigAux objAux) {
 		this.objAux = objAux;
@@ -357,6 +406,8 @@ public class PortafolioEvento {
 		Thread.sleep(1000);
 		clicBtnCerrarServiciosSede();
 		clicBtnCrearNuevaSede();
+		
+		
 
 	}
 

@@ -41,8 +41,6 @@ public class TestPortafolioEvento {
 		objNegociacionEvento = new PortafolioEvento(objAux);
 		objLogin.iniciarSesion(4);
 	}
- 
-
 
 	@Test(priority = 2)
 	public void ingresoDatosPrestador() throws Exception {
@@ -57,7 +55,7 @@ public class TestPortafolioEvento {
 				objAux.buscaElementoParametro("Valor_Medicamento").toString(),objAux.buscaElementoParametro("Medicamento").toString(),
 				objAux.buscaElementoParametro("Grupo_Paquetes").toString());
 	}
-	
+
 	
 
 	@AfterMethod
